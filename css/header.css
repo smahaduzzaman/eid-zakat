@@ -1,0 +1,99 @@
+.header-area {
+    width: 100%;
+    height: 100vh;
+    color: var(--text-color-light-dark-light);
+    background-image: url("../assets/images/eid-foshurhat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 200px;
+}
+
+.header-area::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, black, transparent);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.navbar-area {
+    width: 100%;
+    height: 20%;
+    margin: 0 auto;
+    display: inline;
+    background-image: linear-gradient(to bottom, black, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.nav-logo {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.nav-logo img {
+    width: 200px;
+    height: auto;
+    float: left;
+    position: relative;
+    z-index: -1;
+}
+
+.nav-logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color-light-dark-light);
+    text-align: center;
+    margin-top: 53px;
+    margin-left: 50px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    color: #EF233C;
+}
+
+.nav-menu {
+    width: 70%;
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.nav-menu ul {
+    float: right;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.nav-menu ul li {
+    width: 60%;
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #EF233C;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-menu ul li a:hover {
+    color: #fff;
+}

@@ -1,0 +1,77 @@
+.donation-area {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.donation-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donation-title h3 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.donation-title p {
+    margin: 20px 0 50px 0;
+}
+
+.donation {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.donation-top {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.donation-top-single {
+    width: 40%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #FEF4F5;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.donation-bottom {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.donation-bottom-single {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: #FEF4F5;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.single-title {
+    margin-left: 20px;
+}
+
+.single-title h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}

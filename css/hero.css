@@ -1,0 +1,29 @@
+.hero-area {
+    width: 70%;
+    position: relative;
+    z-index: 2;
+    float: left;
+    display: inline;
+    height: auto;
+    top: 25%;
+    text-align: center;
+    margin-left: 14%;
+}
+
+.hero-left {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.hero-left p {
+    margin: 20px 0 50px 0;
+}

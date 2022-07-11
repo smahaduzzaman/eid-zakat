@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+@import url("header.css");
+@import url("hero.css");
+@import url("post.css");
+@import url("donation.css");
+@import url("gallery.css");
+@import url("charity.css");
+@import url("footer.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-text {
+    color: darkorange;
+}
+
+.half-width {
+    width: 50%;
+}
+
+:root {
+    --body-bg: #fafafa;
+    --text-color: #333;
+    --text-color-light: #666;
+    --text-color-dark: #000;
+    --text-color-light-dark: #999;
+    --text-color-dark-light: #fff;
+    --text-color-light-dark-light: #ccc;
+    --btn-bg: var(--btn-bg-gradient);
+    --btn-bg-gradient: linear-gradient(to right, #f4511e 0%, #f5a623 50%, #f4511e 100%);
+    --btn-bg-hover: darkorange;
+    --bock-bg: #FEF4F5;
+}
+
+.btn {
+    background: linear-gradient(to right, #EF233C, darkorange);
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to left, darkorange, #EF233C);
+}

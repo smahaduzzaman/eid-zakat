@@ -1,0 +1,58 @@
+.charity-post-area {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.charity-post-title {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.charity-post-title h5 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.charity-post-title p {
+    margin: 20px 0 50px 0;
+}
+
+.charity-posts {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.single-charity {
+    width: 32%;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding-bottom: 50px;
+}
+
+.single-charity img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.single-charity h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.single-charity p {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.single-charity a {
+    color: #EF233C;
+    font-weight: bold;
+    margin-left: 20px;
+}
